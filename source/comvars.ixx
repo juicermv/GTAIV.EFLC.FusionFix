@@ -24,7 +24,7 @@ export uint32_t* CCutscenes__m_dwCutsceneState;
 export void* (__stdcall* getNativeAddress)(uint32_t);
 export float* fTimeStep;
 export HWND gWnd;
-export RECT gRect;
+export RECT gRect; 
 export bool bDynamicShadowForTrees;
 export bool bMoreShadows = false;
 export bool bMainEndScene = false;
