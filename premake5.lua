@@ -58,7 +58,7 @@ workspace "GTAIV.EFLC.FusionFix"
    files { "source/resources/Versioninfo.rc" }
    files { "source/resources/Shaders.rc" }
    links { "LogitechLEDLib.lib" } 
-   links {  "sdl2:static" } -- Static link SDL2 so we don't have to distribute the DLL
+   links {  "sdl2" }
    
    includedirs { "external/injector/safetyhook" }
    includedirs { "external/hooking" }
